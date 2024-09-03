@@ -1,0 +1,25 @@
+.hero {
+
+    // position: relative;
+    &::before {
+        background: linear-gradient(0deg,
+                rgba(0, 0, 0, 0.2),
+                rgba(0, 0, 0, 0.9)),
+            repeating-linear-gradient(0deg,
+                rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.9)),
+            url('../../public/dd9e63d4932a97a690fbe4bd40102541.jpg');
+
+        background-position: top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        content: "";
+        width: 100vw;
+        height: 100vh;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+}
