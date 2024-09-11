@@ -1,0 +1,40 @@
+.project {
+    background-color: var(--main-color-dark);
+    padding: 3rem;
+    border-radius: 4px;
+
+    &-img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    &-title {
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    &-description {
+        font-size: 1.5rem;
+        text-align: center;
+        justify-content: center;
+    }
+
+    &-buttons {
+        display: flex;
+        width: 100%;
+        // align-items: center;
+        // justify-content: center;
+
+
+    }
+
+    &-button {
+        padding: 1rem 0;
+        border: 1px solid var(--light-grey-color-1);
+        text-align: center;
+        width: 50%;
+        font-size: 1.5rem;
+        color: var(--light-grey-color-1);
+    }
+}
