@@ -2,6 +2,7 @@
     // height: calc(100vh - 8rem);
     height: 100vh;
     position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
 
 
     &::before {
