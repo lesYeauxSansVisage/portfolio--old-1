@@ -1,9 +1,7 @@
 .hero {
-    // height: calc(100vh - 8rem);
     height: 100vh;
     position: relative;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
-
+    clip-path: circle(50% at 50% 50%);
 
     &::before {
         background: linear-gradient(0deg,
@@ -33,7 +31,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 1rem;
     margin: 0 auto;
     position: absolute;
     top: 40%;
@@ -43,7 +41,7 @@
 
     &-main {
         font-size: 7rem;
-        color: var(--main-color-dark);
+        color: var(--main-color);
     }
 
     &-sub {
